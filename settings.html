@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站追踪设置 - 海湾国家法律新闻追踪系统</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" stroke-width="2"/>
+                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2"/>
+                    </svg>
+                    <h1>网站追踪设置</h1>
+                </div>
+                <a href="index.html" class="back-button">← 返回主页</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="settings-panel">
+                <div class="panel-header">
+                    <h2>自定义新闻来源</h2>
+                    <p class="subtitle">添加、编辑或禁用您想要追踪的网站</p>
+                </div>
+
+                <div class="add-source-section">
+                    <h3>➕ 添加新网站</h3>
+                    <form id="add-source-form" class="source-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>网站名称 *</label>
+                                <input type="text" id="source-name" placeholder="例如：Gulf News" required>
+                            </div>
+                            <div class="form-group">
+                                <label>国家/地区 *</label>
+                                <select id="source-country" required>
+                                    <option value="">请选择</option>
+                                    <option value="UAE">阿联酋</option>
+                                    <option value="Saudi Arabia">沙特阿拉伯</option>
+                                    <option value="Qatar">卡塔尔</option>
+                                    <option value="Kuwait">科威特</option>
+                                    <option value="Oman">阿曼</option>
+                                    <option value="Bahrain">巴林</option>
+                                    <option value="GCC">海合会（区域）</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label>网站URL *</label>
+                                <input type="url" id="source-url" placeholder="https://example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>语言</label>
+                                <select id="source-language">
+                                    <option value="英语">英语</option>
+                                    <option value="阿拉伯语">阿拉伯语</option>
+                                    <option value="双语">双语</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>优先级</label>
+                                <select id="source-priority">
+                                    <option value="high">高</option>
+                                    <option value="medium">中</option>
+                                    <option value="low">低</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label>描述</label>
+                                <textarea id="source-description" rows="2" placeholder="简单描述这个网站的特点"></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 20px; height: 20px; margin-right: 8px;">
+                                <path d="M12 4v16m8-8H4" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            添加网站
+                        </button>
+                    </form>
+                </div>
+
+                <div class="sources-list-section">
+                    <h3>📋 当前追踪的网站</h3>
+                    <div id="sources-list" class="sources-list">
+                        <div class="loading">加载中...</div>
+                    </div>
+                </div>
+
+                <div class="export-section">
+                    <h3>💾 导入/导出配置</h3>
+                    <div class="export-buttons">
+                        <button id="export-btn" class="btn-secondary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 20px; height: 20px; margin-right: 8px;">
+                                <path d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            导出配置
+                        </button>
+                        <button id="import-btn" class="btn-secondary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" style="width: 20px; height: 20px; margin-right: 8px;">
+                                <path d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            导入配置
+                        </button>
+                        <input type="file" id="import-file" accept=".json" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>海湾国家法律新闻追踪系统 © 2026 | 自定义您的新闻来源</p>
+        </div>
+    </footer>
+
+    <script src="settings.js"></script>
+</body>
+</html>

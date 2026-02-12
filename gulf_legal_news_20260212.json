@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "collection_date": "2026-02-12",
+    "time_range": "2026-01-27 to 2026-02-12",
+    "total_news": 13,
+    "countries_covered": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Oman", "Bahrain", "GCC"],
+    "data_sources": [
+      "Gulf News",
+      "National Law Review",
+      "Gulf Times",
+      "Al Tamimi & Company",
+      "Lexis Middle East",
+      "EWS Limited"
+    ]
+  },
+  "legal_news": [
+    {
+      "id": 1,
+      "title": "UAE Enforces Mandatory Advertiser Permit for Social Media Promotions",
+      "title_ar": "الإمارات تفرض ترخيص المعلن الإلزامي لترويج وسائل التواصل الاجتماعي",
+      "country": "UAE",
+      "publication_date": "2026-02-01",
+      "effective_date": "2026-02-01",
+      "source": "Gulf News",
+      "source_url": "https://gulfnews.com/uae/new-uae-law-advertiser-permit-now-mandatory-for-influencers-and-creators-for-social-media-1.500427938",
+      "category": "regulatory_compliance",
+      "news_type": "new_regulation",
+      "summary": "Starting February 1, 2026, all individuals engaged in advertising on social media platforms must obtain a valid Advertiser Permit. The regulation applies to paid and unpaid promotions across all digital platforms.",
+      "key_points": [
+        "Mandatory permit for all advertisers (citizens, residents, visitors)",
+        "Covers social media, websites, blogs, and digital platforms",
+        "Based on Federal Media Law No. 55 of 2023",
+        "Fines range from AED 5,000 to AED 1,000,000 for violations",
+        "Permit valid for 1 year (citizens/residents), 3 months (visitors)",
+        "First 3 years free for UAE citizens and residents"
+      ],
+      "legal_reference": "Federal Media Law No. 55 of 2023, Cabinet Resolution No. 42 of 2025",
+      "enforcement_agency": "UAE Media Council",
+      "penalties": {
+        "unlicensed_operation_first": "AED 10,000",
+        "unlicensed_operation_repeat": "AED 40,000",
+        "false_information": "AED 5,000 - 10,000",
+        "national_security_impact": "AED 50,000 - 500,000"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Dubai Unveils 2026-2028 Strategy to Strengthen Rule of Law",
+      "title_ar": "دبي تكشف عن استراتيجية 2026-2028 لتعزيز سيادة القانون",
+      "country": "UAE",
+      "publication_date": "2026-02-08",
+      "effective_date": "2026-01-01",
+      "source": "Gulf News",
+      "source_url": "https://gulfnews.com/uae/dubai-unveils-20262028-strategy-to-strengthen-rule-of-law-1.500436111",
+      "category": "judicial_reform",
+      "news_type": "strategic_initiative",
+      "summary": "Dubai Government Legal Affairs Department unveiled its 2026-2028 strategy focusing on modernizing legal processes, integrating AI technology, and enhancing institutional performance.",
+      "key_points": [
+        "Integration of AI in departmental operations and services",
+        "Strategic partnerships with relevant government entities",
+        "Empowerment of legal professional sector",
+        "Enhanced legal compliance for government entities",
+        "Training and qualification expansion",
+        "Real-time compliance monitoring systems"
+      ],
+      "legal_reference": "Dubai Government Legal Affairs Department Strategic Plan 2026-2028",
+      "enforcement_agency": "Dubai Government Legal Affairs Department",
+      "spokesperson": "Dr. Lowai Mohamed Belhoul, Director General"
+    },
+    {
+      "id": 3,
+      "title": "UAE Civil Code Removes Gambling Provisions in Major Legal Reform",
+      "title_ar": "القانون المدني الإماراتي يلغي أحكام القمار في إصلاح قانوني كبير",
+      "country": "UAE",
+      "publication_date": "2026-01-20",
+      "effective_date": "2026-06-01",
+      "source": "National Law Review",
+      "source_url": "https://natlawreview.com/article/uae-civil-code-gambling-provisions-removed",
+      "category": "legislative_reform",
+      "news_type": "law_amendment",
+      "summary": "UAE's new Civil Transactions Law removes all gambling-related provisions (Articles 1012-1021) from the civil code, signaling transition to specialized gaming regulations under GCGRA.",
+      "key_points": [
+        "Federal Decree-Law No. 25 of 2025 replaces Federal Law No. 5 of 1985",
+        "Complete removal of gambling provisions (Articles 1012-1021)",
+        "Transition to specialized gaming regulatory framework",
+        "General Commercial Gaming Regulatory Authority (GCGRA) to oversee gaming",
+        "Potential amendments to Penal Code and Cyber Crimes Law",
+        "Part of UAE's regulatory modernization initiative"
+      ],
+      "legal_reference": "Federal Decree-Law No. 25 of 2025",
+      "enforcement_agency": "General Commercial Gaming Regulatory Authority (GCGRA)",
+      "replaces": "Federal Law No. 5 of 1985"
+    },
+    {
+      "id": 4,
+      "title": "Qatar Justice Minister Emphasizes Legal Reform for Sustainable Investment",
+      "title_ar": "وزير العدل القطري يؤكد على الإصلاح القانوني للاستثمار المستدام",
+      "country": "Qatar",
+      "publication_date": "2026-01-27",
+      "effective_date": null,
+      "source": "Gulf Times",
+      "source_url": "https://www.gulf-times.com/article/719372/qatar/justice-minister-says-legal-reform-key-to-sustainable-investment",
+      "category": "judicial_reform",
+      "news_type": "policy_statement",
+      "summary": "Qatar's Justice Minister stated at Doha Legal Forum 2026 that clear legislation, independent judiciary, and efficient justice institutions are central to attracting sustainable investment.",
+      "key_points": [
+        "Investment seeks trust before opportunity",
+        "Law as 'invisible infrastructure' for economic growth",
+        "Updates to investment law and companies law",
+        "Improved dispute resolution mechanisms",
+        "Digitalization of judicial services",
+        "Focus on digital economy, cross-border trade, international arbitration",
+        "Alignment with Qatar National Vision 2030"
+      ],
+      "legal_reference": "National Judicial System Development Initiative (launched 2016)",
+      "enforcement_agency": "Ministry of Justice, Qatar",
+      "spokesperson": "HE Ibrahim bin Ali bin Issa al-Hassan al-Mohannadi, Justice Minister",
+      "forum": "Doha Legal Forum 2026"
+    },
+    {
+      "id": 5,
+      "title": "Qatar Proposes New PPP Law to Modernize Public-Private Partnerships",
+      "title_ar": "قطر تقترح قانون شراكة جديد لتحديث الشراكات بين القطاعين العام والخاص",
+      "country": "Qatar",
+      "publication_date": "2026-01-01",
+      "effective_date": "2026",
+      "source": "Al Tamimi & Company",
+      "source_url": "https://www.tamimi.com/our-knowledge/publications/eyes-on-2026/Articles/qatars-proposed-ppp-law-what-to-watch-for-in-2026/",
+      "category": "legislative_reform",
+      "news_type": "draft_legislation",
+      "summary": "Qatar is drafting an updated PPP law as part of broader legislative modernization, coordinated with foreign investment law and bankruptcy law reforms.",
+      "key_points": [
+        "Part of comprehensive legislative modernization package",
+        "Coordinated with foreign investment law and bankruptcy law reforms",
+        "Aims to clarify procurement rules and risk allocation",
+        "Foreign investors can participate in 1,400+ commercial activities",
+        "Establishment of sector committees (industry, trade, logistics, health, tech)",
+        "Automatic tax number issuance with commercial registration",
+        "Environmental permit simplification"
+      ],
+      "legal_reference": "Proposed PPP Law (draft)",
+      "enforcement_agency": "Ministry of Commerce and Industry",
+      "expected_impact": [
+        "Improved project pipeline",
+        "Clearer competitive bidding requirements",
+        "Reduced financing costs",
+        "Enhanced foreign participation in PPP consortia"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Saudi Arabia Approves Regulations for Four Special Economic Zones",
+      "title_ar": "السعودية توافق على أنظمة أربع مناطق اقتصادية خاصة",
+      "country": "Saudi Arabia",
+      "publication_date": "2026-01-03",
+      "effective_date": "2026-04-01",
+      "source": "China Council for the Promotion of International Trade",
+      "source_url": "https://news.qq.com/rain/a/20260103A087BE00",
+      "category": "economic_regulation",
+      "news_type": "new_regulation",
+      "summary": "Saudi Arabia approved exclusive regulations for four Special Economic Zones (SEZs) - Jazan, Ras Al-Khair, King Abdullah Economic City, and Cloud Computing & IT Zone - effective April 2026.",
+      "key_points": [
+        "Four SEZs: Jazan, Ras Al-Khair, King Abdullah Economic City, Cloud Computing Zone",
+        "Regulations effective April 2026",
+        "Simplified licensing procedures",
+        "Flexible ownership structures",
+        "Attractive tax and customs frameworks",
+        "Multi-language commercial registration",
+        "Exemptions from certain traditional company law provisions",
+        "Tailored Saudization frameworks for each zone"
+      ],
+      "legal_reference": "Special Economic Zones Regulations 2026",
+      "enforcement_agency": "Ministry of Investment, Saudi Arabia",
+      "spokesperson": "Minister Khalid Al-Falih",
+      "sez_focus": {
+        "Jazan": "Food processing, mining, downstream manufacturing",
+        "Ras Al-Khair": "Global maritime and mining hub, shipbuilding",
+        "King Abdullah Economic City": "Advanced manufacturing, logistics, automotive",
+        "Cloud Computing Zone": "Data storage, processing, digital services"
+      }
+    },
+    {
+      "id": 7,
+      "title": "GCC Countries Implement Unified Labor Law Reforms for 2026",
+      "title_ar": "دول مجلس التعاون الخليجي تنفذ إصلاحات قانون العمل الموحدة لعام 2026",
+      "country": "GCC",
+      "publication_date": "2026-01-01",
+      "effective_date": "2026-01-01",
+      "source": "EWS Limited",
+      "source_url": "https://www.ews-limited.com/2026-gcc-labor-law-update/",
+      "category": "employment_law",
+      "news_type": "regional_harmonization",
+      "summary": "GCC member states (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, UAE) implement harmonized labor law reforms, the region's first coordinated labor practice alignment.",
+      "key_points": [
+        "Digital recordkeeping and e-contracts mandatory",
+        "All employment data must be uploaded to national e-portals",
+        "Remote and gig worker compliance frameworks established",
+        "Real-time or monthly wage and social insurance reporting",
+        "Enhanced localization and diversity requirements",
+        "Unified GCC digital work permit system",
+        "Stricter dependent visa rules tied to employment status",
+        "Shorter grace periods for sponsor transfers"
+      ],
+      "legal_reference": "GCC Unified Labor Law Framework 2026",
+      "enforcement_agency": "National labor ministries across GCC states",
+      "compliance_timeline": {
+        "voluntary_test_period": "Late 2025",
+        "core_requirements_effective": "2026-01-01",
+        "strict_enforcement_begins": "Mid-2026"
+      },
+      "penalties": [
+        "Financial fines",
+        "Potential criminal liability for directors",
+        "Public non-compliance records"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Kuwait Cabinet Withdraws Nationality Certificates from Certain Persons",
+      "title_ar": "مجلس الوزراء الكويتي يسحب شهادات الجنسية من أشخاص معينين",
+      "country": "Kuwait",
+      "publication_date": "2026-01-28",
+      "effective_date": "2026-01-28",
+      "source": "Lexis Middle East",
+      "source_url": "https://www.lexismiddleeast.com/news/2026-02-05_23/en",
+      "category": "nationality_law",
+      "news_type": "administrative_decision",
+      "summary": "Kuwait Cabinet Decision No. 23/2026 orders withdrawal of Kuwaiti nationality certificates from certain individuals.",
+      "key_points": [
+        "Cabinet Decision No. 23/2026 dated 28/01/2026",
+        "Withdrawal of nationality certificates from specific persons",
+        "Part of nationality compliance enforcement"
+      ],
+      "legal_reference": "Kuwait Cabinet Decision No. 23/2026",
+      "enforcement_agency": "Kuwait Cabinet"
+    },
+    {
+      "id": 9,
+      "title": "Kuwait Approves Judicial Transfers and Arab Monetary Fund Subscription",
+      "title_ar": "الكويت توافق على النقل القضائي والاشتراك في صندوق النقد العربي",
+      "country": "Kuwait",
+      "publication_date": "2026-01-27",
+      "effective_date": "2026-01-27",
+      "source": "Lexis Middle East",
+      "source_url": "https://www.lexismiddleeast.com/news/2026-02-05_23/en",
+      "category": "judiciary",
+      "news_type": "administrative_decision",
+      "summary": "Kuwait issued multiple decrees including judicial transfers (Decree No. 10/2026) and approval of Arab Monetary Fund capital increase subscription (Decree-Law No. 7/2026).",
+      "key_points": [
+        "Decree-Law No. 7/2026: Approval of Kuwait's subscription to AMF capital increase",
+        "Decree No. 9/2026: Promotion amendment (dated 20/01/2026)",
+        "Decree No. 10/2026: Judicial transfers (dated 26/01/2026)"
+      ],
+      "legal_reference": "Kuwait Decree-Law No. 7/2026, Decree No. 9/2026, Decree No. 10/2026",
+      "enforcement_agency": "Kuwait Government"
+    },
+    {
+      "id": 10,
+      "title": "Oman Amends Work Permits and Introduces Occupational Injuries Regulation",
+      "title_ar": "عمان تعدل تصاريح العمل وتقدم نظام إصابات العمل",
+      "country": "Oman",
+      "publication_date": "2026-02-04",
+      "effective_date": "2026",
+      "source": "Lexis Middle East",
+      "source_url": "https://www.lexismiddleeast.com/news/2026-02-05_23/en",
+      "category": "employment_law",
+      "news_type": "regulatory_amendment",
+      "summary": "Oman issued two key ministerial decisions: amendments to work permit regulations and new occupational injuries and diseases regulation.",
+      "key_points": [
+        "Ministerial Decision No. 44/2026: Amends work permit regulations",
+        "Amends provisions of Ministerial Decision No. 602/2025",
+        "Decision No. 1/2026: Issues Regulation for occupational injuries and diseases",
+        "Enhances worker protection framework"
+      ],
+      "legal_reference": "Oman Ministerial Decision No. 44/2026, Oman Decision No. 1/2026",
+      "enforcement_agency": "Ministry of Labour, Oman"
+    },
+    {
+      "id": 11,
+      "title": "Bahrain Enacts Three New Laws in Early 2026",
+      "title_ar": "البحرين تصدر ثلاثة قوانين جديدة في أوائل عام 2026",
+      "country": "Bahrain",
+      "publication_date": "2026-02-04",
+      "effective_date": "2026",
+      "source": "Lexis Middle East",
+      "source_url": "https://www.lexismiddleeast.com/news/2026-02-05_23/en",
+      "category": "legislative_reform",
+      "news_type": "new_legislation",
+      "summary": "Bahrain passed three new laws in early 2026 (Law No. 1/2026, 2/2026, 3/2026) covering various legal domains.",
+      "key_points": [
+        "Law No. 1/2026 enacted",
+        "Law No. 2/2026 enacted",
+        "Law No. 3/2026 enacted",
+        "Amendments to Decree-Law No. 54/2002 (Article 219)"
+      ],
+      "legal_reference": "Bahrain Law No. 1/2026, Law No. 2/2026, Law No. 3/2026",
+      "enforcement_agency": "Government of Bahrain"
+    },
+    {
+      "id": 12,
+      "title": "Dubai Establishes Rules for Citizens' Housing Dispute Settlement Committee",
+      "title_ar": "دبي تضع قواعد لجنة تسوية المنازعات المتعلقة بإسكان المواطنين",
+      "country": "UAE",
+      "publication_date": "2026-02-04",
+      "effective_date": "2025",
+      "source": "Lexis Middle East",
+      "source_url": "https://www.lexismiddleeast.com/news/2026-02-05_23/en",
+      "category": "dispute_resolution",
+      "news_type": "procedural_regulation",
+      "summary": "Dubai issued Decision No. 7/2025 establishing rules of procedure for the Committee for the Settlement of Disputes Related to the Construction of Citizens' Housing.",
+      "key_points": [
+        "Decision No. 7/2025 on Rules of Procedure",
+        "Establishes dispute resolution mechanism for citizen housing construction",
+        "Streamlines housing dispute resolution process"
+      ],
+      "legal_reference": "Dubai Decision No. 7/2025",
+      "enforcement_agency": "Dubai Government"
+    },
+    {
+      "id": 13,
+      "title": "Qatar Issues Emiri Decisions on Aviation andOther Sectors",
+      "title_ar": "قطر تصدر قرارات أميرية بشأن الطيران وقطاعات أخرى",
+      "country": "Qatar",
+      "publication_date": "2026-02-04",
+      "effective_date": "2026",
+      "source": "Lexis Middle East",
+      "source_url": "https://www.lexismiddleeast.com/news/2026-02-05_23/en",
+      "category": "administrative_law",
+      "news_type": "executive_decisions",
+      "summary": "Qatar issued Emiri Decision No. 5/2026 and Decree No. 111/2025 covering various administrative and regulatory matters.",
+      "key_points": [
+        "Emiri Decision No. 5/2026 issued",
+        "Decree No. 111/2025 implemented",
+        "Covers aviation, treaties, and international agreements"
+      ],
+      "legal_reference": "Qatar Emiri Decision No. 5/2026, Qatar Decree No. 111/2025",
+      "enforcement_agency": "Government of Qatar"
+    }
+  ],
+  "analysis": {
+    "regional_trends": [
+      "Digital transformation of legal and administrative processes",
+      "Regional harmonization (especially in labor law)",
+      "Enhanced investor protection frameworks",
+      "Specialized economic zones expansion",
+      "Social media and digital content regulation",
+      "Judicial modernization and AI integration"
+    ],
+    "compliance_priorities": [
+      "Digital recordkeeping and e-contract implementation",
+      "Social media advertising permit compliance (UAE)",
+      "Labor law harmonization across GCC",
+      "Work permit and visa compliance updates",
+      "Gaming and commercial entertainment regulation (UAE)"
+    ],
+    "upcoming_milestones": {
+      "2026-04-01": "Saudi Arabia SEZ regulations take effect",
+      "2026-06-01": "UAE new Civil Transactions Law takes effect",
+      "Mid-2026": "GCC labor law strict enforcement begins"
+    }
+  },
+  "data_quality_notes": {
+    "verification_status": "Multiple source cross-verification completed",
+    "language_coverage": "English primary sources, Arabic titles provided where available",
+    "time_sensitivity": "All news dated within 3 weeks of collection date (2026-02-12)",
+    "source_reliability": "High - Official government sources, international law firms, established legal publishers",
+    "gaps_identified": [
+      "Limited detailed information on Bahrain Laws 1/2026, 2/2026, 3/2026",
+      "UAE Federal Judiciary Council legislative framework news page unavailable",
+      "Saudi Arabia direct official sources in English limited"
+    ]
+  }
+}

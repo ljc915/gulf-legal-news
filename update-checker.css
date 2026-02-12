@@ -1,0 +1,137 @@
+/* 更新提示横幅样式 */
+.update-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.update-banner-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.update-message {
+    flex: 1;
+}
+
+.update-message h4 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.update-message p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.update-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.update-btn {
+    padding: 8px 20px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.update-btn:hover {
+    background: white;
+    color: #667eea;
+    transform: translateY(-2px);
+}
+
+.close-banner {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.close-banner:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(90deg);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .update-banner {
+        padding: 12px 15px;
+    }
+    
+    .update-banner-content {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .update-message h4 {
+        font-size: 14px;
+    }
+    
+    .update-message p {
+        font-size: 12px;
+    }
+    
+    .update-actions {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .update-btn {
+        padding: 6px 16px;
+        font-size: 13px;
+    }
+}
+
+/* 为横幅腾出空间 */
+body.update-banner-visible {
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    body.update-banner-visible {
+        padding-top: 120px;
+    }
+}

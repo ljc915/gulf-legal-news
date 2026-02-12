@@ -1,0 +1,59 @@
+{
+  "custom_sources": [
+    {
+      "id": 1,
+      "name": "Gulf News 法律版块",
+      "url": "https://gulfnews.com/topic/uae-laws",
+      "country": "UAE",
+      "language": "英语",
+      "priority": "high",
+      "enabled": true,
+      "description": "UAE最权威的英文媒体法律版块"
+    },
+    {
+      "id": 2,
+      "name": "Khaleej Times 法律版块",
+      "url": "https://www.khaleejtimes.com/uae/legal",
+      "country": "UAE",
+      "language": "英语",
+      "priority": "high",
+      "enabled": true,
+      "description": "法院案例和法律变化报道"
+    },
+    {
+      "id": 3,
+      "name": "Arab News",
+      "url": "https://www.arabnews.com/",
+      "country": "Saudi Arabia",
+      "language": "英语",
+      "priority": "high",
+      "enabled": true,
+      "description": "沙特领先的英文报纸"
+    },
+    {
+      "id": 4,
+      "name": "Law Middle East",
+      "url": "https://www.law-middleeast.com/",
+      "country": "GCC",
+      "language": "英语",
+      "priority": "high",
+      "enabled": true,
+      "description": "专业法律新闻平台"
+    },
+    {
+      "id": 5,
+      "name": "Lexis Middle East",
+      "url": "https://www.lexismiddleeast.com/news",
+      "country": "GCC",
+      "language": "英语",
+      "priority": "medium",
+      "enabled": true,
+      "description": "国际权威法律数据库"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-02-12",
+    "total_sources": 5,
+    "version": "1.0"
+  }
+}
